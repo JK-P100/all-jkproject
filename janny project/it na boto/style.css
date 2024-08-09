@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    background:url('itbbg.png') fixed no-repeat center top / cover;
+
+}
+
+.navigation{
+    padding: 10px 25px;
+    background-color:#515052;
+    background: transparent;
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    left: 45px
+}
+
+.logoname{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+}
+
+.navbtn{
+    display: inline-block;
+    position: relative;
+    float:right;
+    top: 35px;
+
+}
+
+.navbtn a{
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+    margin: 30px;
+    text-decoration:none ;
+    color: black;
+}
+
+.logs{
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+    left: 550px;
+    top: 70px ;
+}
+
+.login{
+    margin: 20px;
+    position: relative;
+    left: 140px;
+}
+
+.inputs{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    bottom: 70px;
+    width: 100px;
+    display: inline-block;
+}
+
+.onebox{
+    margin: 0px;
+    width: 355px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.twobox{
+    margin: 0px;
+    width: 355px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.forgot{
+    position: relative;
+    top: 20px;
+    left: 270px;
+    font-size: 12px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.checkbox{
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.remember{
+    position: relative;
+    right: 225px;
+    bottom: 13px;
+}
+
+.secondlogin{
+    position: relative;
+    top: 40px;
+    left: 70px;
+    width: 250px;
+    height: 30px;
+    background-color: #fffffa;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.secondlogin a{
+    text-decoration: none;
+    color: black;
+}
+
+.dont{
+    position: relative;
+    top: 70px;
+    left: 90px;
+    font-size: 14px;
+}
+

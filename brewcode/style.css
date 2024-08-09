@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.header a{
+    top: 8px;
+    text-decoration: none;
+    color: #7FD1B5;   
+}
+
+.logo{
+    position: relative;
+    left: 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar{
+    position: relative;
+    left: 300px;
+}
+
+.navbar a{
+    margin-left: 40px;
+    position: relative;
+    right: 50px;
+}
+
+.menu{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a{
+    position: relative;
+    top: 12px;
+    right: 20px;
+    border: 1px solid #7FD1B5;
+    width: 100%;
+    margin-bottom: 8px;
+    color: #7FD1B5;
+
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    width: 0px;
+    left: 0px;
+    height: 2px;
+    transition: 0.3s;
+
+}
+
+.section-one{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    left: 40px;
+    width: 1450px;
+    height: 715px;
+
+}
+
+.paragraph{
+    z-index: 99;
+    text-align: justify;
+    width: 520px;
+    color: white;
+}
+
+.heading{
+    text-decoration: underline;
+
+}
+
+.p2{
+    position: relative;
+    top: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.p2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-media{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center ;
+    width: 40px;
+    height: 40px;
+    color: #7FD1B5;
+    text-decoration: none;
+
+}
+
+.social-media a i{
+    font-size: 24px;
+}
+
+.heading{
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.image{
+    z-index: 99;
+}
+
+.gray{
+    position: relative;
+    bottom: 640px;
+    left: 35px;
+    width: 1450px;
+    height: 640px;
+    background-color: gray;
+    opacity: 0.2;
+    border-radius: 20px;
+
+}
+
+
+

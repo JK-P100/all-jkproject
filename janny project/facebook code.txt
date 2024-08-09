@@ -1,0 +1,184 @@
+html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="header">
+        <h1 class="facebook">Facebook</h1>
+
+        <h2 class="sentence">Connect with friends and the world <br> around you on Facebook.</h2>
+    </div>
+
+    <div class="box-container">
+
+        <div class="mainbox">
+
+        <input class="onebox" type="text" placeholder="Email adress or phone number">
+        <br>
+        <br>
+        <input class="twobox"  type="password" placeholder="password">
+
+        </div>   
+
+        <div class="login">
+
+            <a class="loginone" href="">Log in</a>
+
+        </div>
+
+        <div class="createaccount">
+            <a href="">Create new account </a>
+
+        </div>
+
+        <div class="forgot">
+            <a href="">Forgot password?</a>
+
+        </div>
+    </div>
+
+    <div class="page">
+        <a class="lmao" href=""><b>Create a Page</b></a>
+        <p class="for">for a celebrity, brand or business</p>
+
+    </div>
+
+    
+
+</body>
+
+
+</html>
+
+css
+
+body{
+    margin: 0px;
+    background-color: rgba(254, 252, 252, 0.859);
+}
+ 
+.header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.facebook{
+    color: blue;
+    font-size: 40px;
+}
+
+.box-container{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 9px  black;
+    margin: 50px;
+
+}
+
+.mainbox{
+    position: relative;
+    left: 15px;
+    right: 15px;
+    top: 20px;
+}
+
+.onebox{
+    margin: 0xp;
+    width: 363px;
+    height: 50px;
+
+}
+
+.twobox{
+    margin: 0xp;
+    width: 363px;
+    height: 50px;
+
+}
+
+.login{
+    position: relative;
+    text-align: center;
+    top: 37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(51, 157, 223);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    left: 15px;
+    width: 350px;
+
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
+.createaccount{
+    position: relative;
+    text-align: center;
+    top: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(68, 206, 68);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    left: 110px;
+    width: 150px;
+
+}
+
+.createaccount a{
+    color: white;
+    text-decoration: none;
+}
+
+.forgot{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+.page{
+    position: relative;
+    left: -18px;
+    bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lmao{
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    color: black;
+}
+
+.for{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
+

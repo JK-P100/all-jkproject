@@ -1,0 +1,96 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            <img src="nexaa.png" width="70px" alt="">
+            <h2 class="logo-letter">Naysuu</h2>
+
+        </div>
+
+        <div class="nav-container">
+            <a class="link" href="">Home</a>
+            <a class="link" href="">About</a>
+            <a class="link" href="">Contact</a>
+            <a class="btn-link" href="">Login</a>
+
+        </div>
+
+    </nav>
+    
+</body>
+
+</html>
+
+css
+
+body{
+    margin: 0px;
+    background-color: #ffd580;
+}
+
+nav{
+    background-color: #c0cffa;
+    padding: 1px 25px;
+    box-shadow: 0 0 15px 1px cornflowerblue;
+    
+}
+.logo{
+    display: inline-block;
+}
+
+.logo-letter{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: -15px;
+}
+
+.nav-container{
+    float: right;
+    position: relative;
+    top: 25px;
+}
+
+.link{
+    margin: 13px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: cornflowerblue;
+}
+
+.btn-link{
+    background-color:cornflowerblue;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 9px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.btn-link:hover{
+    padding: 5px 15px;
+}
+
+

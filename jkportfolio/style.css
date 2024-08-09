@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:ital,wght@1,900&family=Roboto+Slab:wght@700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #0D0C1D;
+}
+
+.main-container{
+    position: fixed;
+    z-index: 1000;
+    height: 80px;
+    width: 100%;
+    background-color:#0D0C1D;
+}
+
+.logo{
+    position: relative;
+    left: 200px;
+    bottom: 4px;
+}
+
+.navigation{
+    position: relative;
+    float: right;
+    top: 22px;
+    right: 770px;
+    font-weight: bolder;
+
+}
+
+.navigation ul li{
+    display: inline-block;
+
+}
+
+.navigation ul li a{
+    margin: 23px;
+    color: white;
+    font-size: 17px;
+}
+
+.active{
+    background-color: #034078;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+ul li a:hover{
+    color: #034078;
+    transition: 0.5s;
+}
+
+
+.threeline div{
+    position: relative;
+    right: 100px;
+    bottom: 90px;
+    height: 2px;
+    background-color: white;
+    margin: 7px 0;
+    border-radius: 25px;
+    
+}
+
+.nav{
+    width: 30px;
+    display: inline-block;
+    margin: 1em 0 0 1em;
+    float: right;
+}
+
+.self{
+    position: relative;
+    top: 78px;
+    left: 450px;
+    z-index: 100;
+}
+
+.element1{
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}
+
+.element2{
+    position: relative;
+    right: 455px;
+    bottom: 220px;
+}
+
+.paragraph{
+    position: relative;
+    bottom: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.first{
+    position: relative;
+    font-size: 60px;
+    left: 445px ;
+    bottom: 70px;
+    display: inline-block;
+}
+
+.second{
+    position: relative;
+    font-size: 60px;
+    left: 250px ;
+    bottom: 0px;
+    display: inline-block;
+
+}
+
+.third{
+    position: relative;
+    font-size: 40px;
+    top: 85px;
+    left: 487px;
+    display: inline-block;
+}
+
+.fourth{
+    position: relative;
+    top: 190px;
+    font-size: 17px;
+    left: 240px;
+    display: inline-block;
+}
+
+.social-media{
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #034078;
+    text-decoration: none;
+}
+
+.social-media a i{
+    font-size: 24px;
+
+}
+
+.border{
+    position: relative;
+    bottom: 73px;
+    width: 100%;
+    height: 2px;
+    background-color: #034078;
+}
+
+#about{
+    position: relative;
+    display: inline-block;
+    left: 5px;
+    bottom: 770px;
+    font-size: 20px;
+    color: white;
+}
+
+.element22{
+    position: relative;
+    right: 60px;
+    bottom: 70px;
+    display: inline-block;
+    
+}
+
+.element11{
+    position: relative;
+    display: inline-block;
+    left: 850px;
+    bottom: 780px;
+}
+
+.jksecond{
+    position: relative;
+    left: 640px;
+    top: 60px;
+    display: inline-block;
+    width: 0%;
+}
+
+.borderbox{
+    position: relative;
+   left: 55px;
+    bottom: 460px;
+
+}
+
+.sentences{
+    display: inline-block;
+    position: relative;
+    bottom: 820px;
+    left: 160px;
+    color: white;
+    font-size: 20px;
+    width: 30%;
+    height: 500px;
+    text-align: justify;
+
+}
+
+.bordertwo{
+    position: relative;
+    bottom: 755px;
+    width: 100%;
+    height: 2px;
+    background-color: #034078;
+}
+
+#project{
+    position: relative;
+    display: inline-block;
+    left: 150px;
+    bottom: 680px;
+    font-size: 20px;
+    color: white;
+}
+
+.element222{
+    position: relative;
+    right: 60px;
+    bottom: 70px;
+    display: inline-block;
+    
+}
+
+.itflix{
+    display: flex;
+    position: relative;
+    bottom: 730px;
+    justify-content: space-around;
+}
+
+.payjk{
+    display: flex;
+    position: relative;
+    bottom: 600px;
+    justify-content: space-around;
+}
+
+.razer{
+    display: flex;
+    position: relative;
+    bottom: 920px;
+    justify-content: center;
+    
+}
+
+.borderthree{
+    position: relative;
+    bottom: 670px;
+    width: 100%;
+    height: 2px;
+    background-color: #034078;
+}
+
+.fourth-container{
+    position: relative;
+    height: 150px;
+    background-color: black ;
+}
+
+#contact{
+    position: relative;
+    display: inline-block;
+    left: 150px;
+    bottom: 580px;
+    font-size: 20px;
+    color: white;
+}
+
+.element2222{
+    position: relative;
+    right: 60px;
+    bottom: 70px;
+    display: inline-block;
+    
+}
+
+.social-media2{
+    position: relative;
+    bottom: 600px;
+}
+
+.social-media2 a{
+    position: relative;
+    left: 150px;
+    display: inline flex;
+    justify-content: space-around;
+    margin: 90px;
+    font-size: 120px;
+    color: #034078;
+
+}
+
+.media-name{
+    position: relative;
+    bottom: 680px;
+    border: 2px solid red;
+    color: white;
+    width: 100%;
+    
+}
+
+.media-name h3{
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    left: 250px;            
+    margin-right: 180px;
+}
+
+.facebook{
+    position: relative;
+    display: inline-block;
+    color: white;
+    right: 1010px;
+    top: 30px;
+}
+
+.twitter{
+    position: relative;
+    display: inline-block;
+    color: white;
+    right: 850px;
+    top: 30px;
+}
+
+.instagram{
+    position: relative;
+    display: inline-block;
+    color: white;
+    left: 860px;
+    bottom: 90px;
+}
+
+.discord{
+    position: relative;
+    display: inline-block;
+    color: white;
+    left: 1085px;
+    bottom: 90px;
+}
+
+
+
+
+

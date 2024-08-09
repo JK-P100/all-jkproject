@@ -1,0 +1,1016 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    height: 80px;
+    padding: 2em 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    background-color: #bebebe;
+    
+}
+
+.logo{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.navbar{
+    position: relative;
+    left: 5em;
+}  
+
+.navbar a{
+    margin-left: 2.6em;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+
+.button{
+    padding: 0.5em 1em;
+    padding-top: 2em;
+    background-color: black;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #bebebe;
+}
+
+.firstsec{
+    width: 100%;
+    height: 695px;
+    display: flex;
+    
+}
+
+.white{
+    width: 100%;
+    height: 693px;
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.jann{
+    position: relative;
+    left: 14em;
+    animation-name: slideInLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+.gray{
+    width: 100%;
+    height: 693px;
+    background-color:#bebebe;
+    padding-top: 8.5em;
+    padding-left: 6em;
+}
+
+.bigfont{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.smallfont{
+    padding-top: 1em ;
+    font-weight: 500;
+}
+
+.secheader{
+    height: 60px;
+    width: 21%;
+    background-color: black;
+    margin-top: 3em;
+}
+
+.title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+
+.innersec{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 100%;
+    height: 200px;
+}
+
+.innertitle{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 13%;
+    position: relative;
+    top: 30px;
+}
+
+.box2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.minibox1{
+    width: 33.3%;
+    height: 300px;
+   /* border: 2px solid green; */
+    padding-left: 2em;
+}
+  
+
+.minibox2{
+    width: 33.3%;
+    height: 300px;
+    /* border: 2px solid green; */
+    padding-left: 2em;
+}
+
+.minibox3{
+    width: 33.3%;
+    height: 300px;
+    /* border: 2px solid green; */
+    padding-left: 2em; 
+}
+
+.number{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #bebebe;
+}
+
+.worktitle{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 500;
+} 
+
+.thirdpage{
+    width: 100%;
+    height: 600px;
+}
+
+.innerbox{
+    width: 100%;
+    height: 400px;
+    border: green;
+    display: flex;
+}
+
+.leftbox{
+    width: 50%;
+    height: 500px;
+    background-color: #BEBEBE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5em;
+    gap: 20px;
+}
+
+.title3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.paragraph3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.aboutme{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+
+.rightbox{
+    width: 50%;
+    height: 400px;
+}
+
+.fourthpage{
+    width: 100%;
+    min-height: 600px;
+   /* border: 2px solid red; */
+}
+
+.thirdheader{
+    height: 60px;
+    width: 320px;
+    background-color: black;
+    margin-top: 3em;
+    margin: 0px;
+    
+}
+
+.secondtitle{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+
+.parent{
+    width: 100%;
+    height: 600px;
+   /* border: solid 2px yellow; */
+    display: flex;
+    flex-direction: row;
+}
+
+.firstchild{
+    width: 50%;
+    height: 600px;
+   /* border: solid 2px green; */
+}
+
+.forthparagraph{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 6em;
+    padding-top: 3em;
+    
+}
+
+.secondchild{
+    width: 50%;
+    height: 600px;
+  /*  border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.grandchild1{
+    width: 100%;
+    height: 300px;
+   /* border: solid 2px black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.kid1{
+    width: 100%;
+    height: 300px;
+   /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 5em;
+}
+
+.skilltitle1{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.skillset1{
+    font-weight: 450;
+}
+
+.kid2{
+    width: 100%;
+    height: 300px;
+   /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 5em;
+}
+
+.skilltitle2{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.skillset2{
+    font-weight: 450;
+}
+
+.grandchild2{
+    width: 100%;
+    height: 300px;
+   /* border: solid 2px black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.kid3{
+    width: 100%;
+    height: 300px;
+   /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2em;
+}
+
+.skilltitle3{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.skillset3{
+    font-weight: 450;
+}
+
+.kid4{
+    width: 100%;
+    height: 300px;
+  /*  border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2em;
+}
+
+.skilltitle4{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.skillset4{
+    font-weight: 450;
+}
+
+.fifthpage{
+    width: 100%;
+    height: 250px;
+    background-color: black; 
+   /* border: 2px solid red; */
+
+}
+
+.blackbanner{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+.html{
+    width: 33.3%;
+    height: 250px;
+   /* border: 2px solid yellow; */
+}
+
+.css{
+    width: 33.3%;
+    height: 250px;
+    /* border: 2px solid yellow; */
+}
+
+.javascript{
+    width: 33.3%;
+    height: 250px;
+    /* border: 2px solid yellow; */
+}
+
+.sixthpage{
+    width: 100%;
+    height: 1700px;
+   /* border: 2px solid red; */
+    
+
+}
+
+/* .sixthparent{
+    width: 100%;
+    height: 1670px;
+     border: 2px solid red; 
+
+} */
+
+.sixthtitle{
+    height: 60px;
+    width: 21%;
+    background-color: black;
+    margin-top: 5em;
+}
+
+.titlev2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+
+.sixthchild{
+    width: 100%;
+    height: 1600px;
+   /* border: 2px solid green; */
+    display: flex;
+
+}
+
+.sixthnephew{
+    width: 50%;
+    height: 1500px;
+   /* border: solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sixthparagraph{
+    width: 100%;
+    height: 500px;
+    /* border: solid 2px pink; */
+
+}
+
+.paragraph6{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+.firstproject{
+    width: 100%;
+    height: 650px;
+    /* border: solid 2px pink; */
+
+}
+
+.brewcode{
+    width: 80%;
+    height: 325px;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 4.5rem;
+    padding: 0px;
+   /* background: url('brewcode.png') fixed no-repeat center top / cover;*/
+
+}
+
+.brewcodetext{
+    width: 80%;
+    height: 325px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin-left: 4.5rem;
+    padding-top: 2em;
+    padding-left: 2em;
+
+}
+
+.brewcodetitle{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.brewcodedes{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-top: 1.3em;
+}
+
+.secondproject{
+    width: 100%;
+    height: 800px;
+    /* border: solid 2px pink; */
+}
+
+.oldport{
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 4.5rem;
+    padding: 0px;
+
+}
+
+.oldportext{
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    border: 2px solid black;
+    background-color: black;
+    color: white;   
+    margin-left: 4.5rem;
+    padding-top: 2em;
+    padding-left: 2em;
+
+}
+
+.oldportitle{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.oldportdes{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-top: 1.3em;
+}
+
+.sixthnephew2{
+    width: 50%;
+    height: 1500px;
+    /* border: solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.thirdproject{
+    width: 100%;
+    height: 800px;
+    /* border: solid 2px pink; */
+
+}
+
+.firstport{
+    width: 80%;
+    height: 325px;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 4.5rem;
+
+}
+
+.firstportext{
+    width: 80%;
+    height: 325px;
+    border: 2px solid black;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin-left: 4.5rem;
+    padding-top: 2em;
+    padding-left: 2em;
+
+}
+
+.firstporttitle{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.firstportdes{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-top: 1.3em;
+}
+
+.fourthproject{
+    width: 100%;
+    height: 800px;
+   /* border: solid 2px pink; */
+
+}
+
+.payjc{
+    width: 80%;
+    height: 325px;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 4.5rem;
+
+}
+
+.payjctext{
+    width: 80%;
+    height: 325px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;  
+    margin-left: 4.5rem;
+    padding-top: 2em;
+    padding-left: 2em;
+
+}
+
+.payjctitle{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.payjcdes{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-top: 1.3em;
+}
+    
+.viewproject{
+    width: 50%;
+    height: 100px;
+    margin-left: 12rem;
+    padding-top: 20px;
+    background-color: black;
+    /* border: solid 2px pink; */
+
+}
+
+.viewports{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.seventhpage{
+    width: 100%;
+    height: 950px;
+    
+}
+
+.seventhtitle{
+    height: 60px;
+    width: 21%;
+    background-color: black;
+    
+}
+
+.socials{
+    width: 100%;
+    height: 910px;
+   /* border: solid 2px green; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.instagram{
+    width: 100%;
+    height: 428px;
+   /* border: solid 2px blue; */
+    display: flex;
+
+}
+
+.facebook{
+    width: 100%;
+    height: 428px;
+  /*  border: solid 2px blue; */
+    display: flex;
+}
+
+.ig-description{
+    width: 50%;
+    height: 424.5px;
+    padding: 5.3rem;
+   /* border: solid 2px black; */
+    background-color: #BEBEBE;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ig-follow{
+    text-decoration: underline;
+
+}
+
+.ig-title{
+    font-size: 2.2em;
+    margin-top: 15px;
+
+}
+
+.ig-picture{
+    width: 50%;
+    height: 428px;
+   /* border: solid 2px black; */
+}
+
+.fb-description{
+    width: 50%;
+    height: 424.5px;
+    padding: 5.3rem;
+  /* border: solid 2px black; */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fb-follow{
+    text-decoration: underline;
+
+}
+
+.fb-title{
+    font-size: 2.2em;
+    margin-top: 35px;
+    color: blue;
+    
+}
+
+.fb-picture{
+    width: 50%;
+    height: 428px;
+   /* border: solid 2px black; */
+}
+
+.eightsection{
+    width: 100%;
+    height: 850px;
+   /* border: solid 2px black; */
+    margin-top: 3rem;
+    display: flex;
+
+}
+
+.communication{
+    width: 50%;
+    height: 900px;
+    /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    gap: 10px;
+}
+
+.eight-title{
+    font-size: 2.3rem;
+}
+
+.form{
+    width: 50%;
+    height: 900px;
+   /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+    width: 70%;
+    height: 70px;
+   /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.name-title{
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid blue; */
+}
+
+.names{
+    font-weight: bolder;
+}
+
+/* .name-form{
+    width: 100%;
+    height: 60px;
+     border: 2px solid blue; 
+    background-color: black;
+    border-radius: 10px;
+} */
+
+.text-name{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1em;
+    padding-left: 1em;
+    color: white;
+}
+
+.email{
+    width: 70%;
+    height: 70px;
+   /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.email-title{
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid blue; */
+}
+
+.emails{
+    font-weight: bolder;
+}
+
+
+/* .email-form{
+    width: 100%;
+    height: 60px;
+    border: 2px solid blue; 
+    background-color: black;
+    border-radius: 10px;
+} */
+
+.text-email{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1em;
+    padding-left: 1em;
+    color: white;
+}
+
+
+.message{
+    width: 70%;
+    height: 300px;
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.message-title{
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid blue; */
+}
+
+.messages{
+    font-weight: bolder;
+}
+
+/* .message-form{
+    width: 100%;
+    height: 260px;
+    border: 2px solid blue; 
+    background-color: black;
+    border-radius: 10px;
+} */
+
+.text-message{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1em;
+    padding-left: 1em;
+    color: white;
+    text-align: start;
+}
+
+.form-button{
+    width: 70%;
+    height: 40px;
+    /* border: solid 2px red; */
+    background-color: black;
+    border-radius: 10px;
+}
+
+.forms{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+
+.myname{
+    width: 50%;
+    height: 300px;
+   /* border: solid 2px orange; */
+    display: flex;
+    flex-direction: column;
+}
+
+.creators-name{
+    width: 100%;
+    height: 150px;
+    /* border: solid 2px green; */
+    color: white;
+    padding: 2rem;
+    padding-left: 8rem;
+}
+
+.fullname{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.footer-rights{
+    width: 100%;
+    height: 150px;
+    /* border: solid 2px green; */
+    color: white;
+    display: flex;
+    padding: 1rem;
+    padding-left: 8rem;
+    justify-content: end;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-nav{
+    width: 50%;
+    height: 300px;
+   /* border: solid 2px orange; */
+    display: flex;
+}
+
+.main-nav{
+    width: 50%;
+    height: 300px;
+    /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-nav a{
+    color: white;
+}
+
+.other-nav{
+    width: 50%;
+    height: 300px;
+   /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.other-nav a{
+    color: white;
+}

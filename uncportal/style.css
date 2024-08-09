@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:ital,wght@1,900&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+section{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.loginbox{
+    width: 50%;
+    height: 695px;
+    border: 2px solid red;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.uncbg{
+    width: 50%;
+    height: 695px;
+    border: 2px solid red;
+
+}
+
+.child1{
+  /*  border: 2px solid green; */
+}
+
+.child2{
+   /* border: 2px solid green; */       
+    padding: 2em;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+}
+
+.type{
+    padding: 1.2em;
+    padding-left: 6.5em;
+    padding-right: 6.5em;
+    border-radius: 15px;
+    
+}
+
+
+.child3{
+  /*  border: 2px solid green; */
+    display: flex;
+    gap: 30px;
+    position: relative;
+    bottom: 65px;
+}
+
+.signin{
+    border: 1px solid black;
+    padding: 0.8em;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.forgot{
+    border: 1px solid black;
+    padding: 0.8em;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer{
+    font-size: 0.7rem;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.uncbg{
+    background-image: url(unc.jpg) fixed no-repeat center top / cover;
+}

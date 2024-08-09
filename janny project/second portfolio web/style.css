@@ -1,0 +1,104 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+body{
+    margin: 0px;
+    background-color: #e5fcf5
+}
+
+.navigation{
+    background-color: #fefffe;
+    padding: 1px 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0 0 15px black;
+    
+
+}
+
+.nav-logo{
+    display: inline-block;
+    position: relative;
+    left: 90px;
+}
+
+.buttons{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 200px;
+    font-size: 15px;
+}
+
+.buttons a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+
+.buttons a:hover{
+    color: rgb(217, 255, 4);
+}
+
+.btn-link{
+    background-color:rgb(119, 0, 255);
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-link:hover{
+    padding: 10px;
+}
+
+.main-content{
+    margin: 90px;
+    position: relative;
+    top: 80px;
+    left: 90px;
+}
+
+.main-word{
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paragraph{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-about{
+    background-color:rgb(119, 0, 255);
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-about a{
+    text-decoration: none;
+    color: black;
+}
+
+.firstimage{
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 340px;
+    right: 100px;
+
+}
+
+.second-container{
+    position: relative;
+    background-color: rgb(202, 226, 255);
+    width: 100%;
+    height: 700px;
+    top: 200px;
+    border-top: 2px solid rgb(163, 163, 163);
+
+    
+}

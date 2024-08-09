@@ -1,0 +1,21 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.first{
+
+}
+
+.second{
+    position: relative;
+    width: 100%;
+    top: 500px;
+}
+
+
+
+

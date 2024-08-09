@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background:url('banner.webp') fixed no-repeat center top / cover;
+}
+
+
+
+.nav-container{
+    background-color: #000;
+    border-bottom:2px solid #44d62c;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.second-container{
+    position: relative;
+    background-color: #555;
+    height: 40px;
+    text-align: center; 
+    position: fixed;
+    top: 65px;
+    width: 100% ;
+
+}
+
+.paragraph{
+    position: relative;
+    top: 0px;
+    color: white;
+    font-size: 13px;
+    right: 45px;
+
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    left: 145px;
+}
+
+.navigation{
+    float: right;
+    position: relative;
+    right: 260px;
+    font-size: 15px;
+    color: white;
+    top: 23px;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    margin: 38px;
+    color: gray;
+}
+
+.navigation a:hover{
+    color: white;
+}
+
+.section{
+    position: relative;
+    left: 630px;
+    top: 200px;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.first{
+    position: relative;
+    right: 120px;
+    bottom: 45px;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.second{
+    position: relative;
+    right:80px;
+    bottom: 70px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.third{
+    position: relative;
+    left: 40px;
+    bottom: 90px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.fourth{
+    position: relative;
+    left: 180px;
+    bottom: 146.5px;
+    font-weight: lighter;
+    font-size: 20px;
+}

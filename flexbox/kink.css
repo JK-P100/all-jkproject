@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:ital,wght@1,900&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #7FD1B5;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+    padding: 1em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+.navbar a{
+    margin-left: 3.5em;
+    font-size: 1.05rem;
+}
+
+.menu{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a{
+    position: relative;
+    top: 5px;
+    right: 20px;
+    border: 1px solid #7FD1B5; 
+    width: 100%;
+    margin-bottom: 8px;
+    color: #7FD1B5;
+
+}
+
+.firstsec{
+    width: auto;
+    position: relative;
+    top: 80px;
+    min-height: 100%;
+    background-color: #2C2A2A;
+   /* border: 2px solid red; */
+    display: flex;
+    flex-direction:row;
+    margin: 2em;
+    margin-top: 0px;
+    padding: 1em;
+    border-radius: 40px;
+}
+
+.firstbox{
+    width: 50%;
+    min-height: 550px;
+    margin: 1.8rem;
+   /* border: 2px solid green; */
+}
+
+.paragraph{
+    z-index: 99;
+    width: auto;
+    color: white;
+    margin: 2em 5em;
+    position: relative;
+    top: 1rem;
+}
+
+.heading{
+    text-decoration: underline;
+    font-size: 1.9rem;
+
+}
+
+.sentence{
+    margin-top: 1.2em;
+}
+
+.p2{
+    position: relative;
+    top: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.p2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-media{
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    min-height: 40px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center ;
+    width: auto;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.social-media a i{
+    font-size: 24px;
+}
+
+.image{
+    width: 50%;
+   /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drew{
+    position: relative;
+    bottom: 70px;
+}
+
+
+.navbar a::before{
+    content: '';
+    width: 0px;
+    background-color: #7FD1B5;
+    top: 100%;
+    left: 0px;
+    height: 2px;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+/* Responsive for tablet first section */
+
+@media screen and (max-width: 919px){
+    .navbar {
+        display: none;
+    }
+
+    .drew{
+        width: 400px;
+        position: relative;
+        right: 30px;
+        bottom: 20px;
+    }
+
+    .paragraph{
+        position: relative;
+        bottom: 100px;
+    }
+
+    .firstbox{
+        position: relative;
+        bottom: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 1314px){
+
+    .social-media{
+        display: none;
+    }
+    
+
+}
+
+@media screen and ( max-width:414px ){
+
+    .firstsec{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstbox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .drew{
+        width: 300px;
+        position: relative;
+        left: 100px;
+        bottom: 20px;
+
+    }
+
+    .paragraph{
+        margin: 3em 4em;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+        
+    }
+
+    .sentence{
+        font-size: 1rem;
+    }
+    
+}
+
+/* second section */
+
+.sectiontwo{
+    width: auto;
+    position: relative;
+    top: 100px;
+    min-height: 100%;
+    background-color: #2C2A2A;
+    border-radius: 40px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction:row;
+    margin: 2em;
+    margin-top: 0px;
+    padding: 1em;
+}
+
+.mainbox{
+    width: 100%;
+    min-height: 400px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 12em 5em;
+
+}
+
+.firstsecbox{
+    font-size: 1.8rem;
+    color: #7FD1B5 ;
+    font-weight: 700;
+    position: relative;
+    bottom: 120px;
+}
+
+.aboutus{
+    text-decoration: underline;
+}
+
+.secondsecbox{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.box1{
+    background-color: #2C2A2A;
+    color: white;
+    padding: 2.8em;
+    text-align: center;
+    border-radius: 55px;
+    width: 25%;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+}
+.box2{
+    background-color: #2C2A2A;
+    color: white;
+    border-radius: 55px;
+    min-height: 50px;
+    width: 25%;
+    padding: 2.8em;
+    text-align: center;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+}
+.box3{
+    background-color: #2C2A2A;
+    color: white;
+    border-radius: 55px;
+    min-height: 50px;
+    width: 25%;
+    padding: 2.8em;
+    text-align: center;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+}
+.box4{
+    background-color: #2C2A2A;
+    color: white;
+    border-radius: 55px;
+    min-height: 50px;
+    width: 25%;
+    padding: 2.8em;
+    text-align: center;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+}
+
+/* Responsive for tablet second section */
+
+@media screen and (max-width: 820px){
+
+    .secondsecbox{
+        display: flex;
+        position: relative;
+        bottom: 70px;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100px;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box1{
+        width: 60%;
+    }
+
+    .box2{
+        width: 60%;
+        
+    }
+
+    .box3{
+        width: 60%;
+        
+    }
+
+    .box4{
+        width: 60%;
+        
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 413px){
+
+    .secondsecbox{
+        display: flex;
+        position: relative;
+        bottom: 70px;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100px;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box1{
+        width: 100%;
+    }
+
+    .box2{
+        width: 100%;
+        
+    }
+
+    .box3{
+        width: 100%;
+        
+    }
+
+    .box4{
+        width: 100%;
+        
+    }
+
+}
+
+
+/* third section */
+
+.sectionthree{
+    width: auto;
+    position: relative;
+    top: 100px;
+    background-color: #2C2A2A;
+    border-radius: 40px;
+   /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction:row;
+    margin: 2em;
+    margin-top: 0px;
+    padding: 5em 2em;
+}
+
+.secondmainbox{
+    width: 100%;
+    /*border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+    padding:  3em 1em;
+
+}
+
+.thirdsecbox{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.boxes1{
+    background-color: #2C2A2A;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxes2{
+    background-color: #2C2A2A;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes3{
+    background-color: #2C2A2A;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 0.8rem;
+    box-shadow: -4px -1px 10px 4px rgba(9, 9, 9, 0.94);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.firstthirdbox{
+    padding-left: 3em;
+    font-size: 1.8rem;
+    color: #7FD1B5 ;
+    font-weight: 700;
+    position: relative;
+    bottom: 40px;
+
+    
+}
+
+.products{
+    text-decoration: underline;
+}
+
+.espresso{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nameone{
+    position: relative;
+    bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #7FD1B5;
+}
+
+.menu1{
+    font-size: 1.3rem;
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+
+}
+
+.menu1text{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cappuccino{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nametwo{
+    position: relative;
+    bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #7FD1B5;
+}
+
+.menu2{
+    font-size: 1.3rem;
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+
+}
+
+.menu2text{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.coldbrew{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.namethree{
+    position: relative;
+    bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #7FD1B5;
+}
+
+.menu3{
+    font-size: 1.3rem;
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+
+}
+
+.menu3text{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Responsive for tablet third section */
+
+@media screen and (max-width: 820px){
+
+    .thirdsecbox{
+        display: flex;
+        position: relative;
+        bottom: 70px;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100px;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .boxes1{
+        width: 60%;
+    }
+
+    .boxes2{
+        width: 60%;
+        
+    }
+
+    .boxes3{
+        width: 60%;
+        
+    }
+
+    .boxes4{
+        width: 60%;
+        
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 413px){
+
+    .thirdsecbox{
+        display: flex;
+        position: relative;
+        bottom: 70px;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100px;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .boxes1{
+        width: 100%;
+    }
+
+    .boxes2{
+        width: 100%;
+        
+    }
+
+    .boxes3{
+        width: 100%;
+        
+    }
+
+    .boxes4{
+        width: 100%;
+        
+    }
+
+
+}
+

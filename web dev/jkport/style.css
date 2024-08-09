@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Montserrat:wght@500&family=Open+Sans:ital,wght@1,800&family=Poppins:ital,wght@1,900&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url('bannner.png') fixed no-repeat center top / cover;
+}
+
+.logo{
+    position: relative;
+    left: 250px;
+}
+
+nav{
+    height: 80px;
+    width: 100%; 
+}
+
+nav ul{
+    float: right;
+}
+
+
+nav ul li{
+    position: relative;
+    color: white;
+    display: inline-block;
+    top: 22px;
+    margin-right: 50px;
+    right: 100px;
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: rgb(83, 83, 83);
+    transition: 1s;
+
+}

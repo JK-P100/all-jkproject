@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:ital,wght@1,900&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    height: 80px;
+    padding: 2em 2em;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    
+}
+
+.logo{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    margin-left: 3em;
+}  

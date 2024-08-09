@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: url('gbg.jpg') fixed no-repeat center top / cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    height: 80px;
+    padding: 2em 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo{
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+}
+
+.navbar a{
+    margin-left: 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.login-section{
+    width: 23%;
+    height: 420px;
+    border-radius: 30px;
+    margin: 3.1em 37em;
+    background-color: white;
+    z-index: 100;
+    
+}
+
+.login-signup{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1.2em;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.login{
+    padding: 0.2em 0.5em;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.signup{
+    padding: 0.2em 0.5em;
+    color: black;
+}
+
+.input-section{
+    /* border: 2px solid green; */       
+     padding: 2em;
+     display: flex;
+     gap: 20px;
+     flex-direction: column;
+     position: relative;
+     bottom: 20px;
+     color: black;
+     font-weight: 600;
+     font-size: 0.9rem;
+ }
+ 
+ .type{
+     padding: 1.2em;
+     padding-right: 7.9em;
+     border-radius: 25px;
+     border: 1px solid black;
+     
+ }
+
+ .signin-forgot{
+    /*  border: 2px solid green; */
+      display: flex;
+      gap: 10px;
+      position: relative;
+      bottom: 30px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      margin-left: 2.6em;
+  }
+  
+  .signin{
+      background-color: black;
+      color: white;
+      padding: 0.8em;
+      border-radius: 25px;
+      padding-left: 25px;
+      padding-right: 30px;
+  }
+  
+  .forgot{
+      background-color: black;
+      color: white;
+      padding: 0.8em;
+      border-radius: 25px;
+      padding-left: 25px;
+      padding-right: 30px;
+  }
+
+.quote{
+    color: black;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.images{
+    position: relative;
+    position: fixed;
+    bottom: 0px;
+    z-index: 0;
+}
+
+.one{
+    margin-left: 80px;
+}
+
+.two{
+    margin-left: 120px;
+}
+
+.three{
+    margin-left: 120px;
+}
+
+.four{
+    margin-left: 120px;
+}

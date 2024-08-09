@@ -1,0 +1,192 @@
+html{
+    box-shadow: ;
+    
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    opacity: 10;
+    background: url('netflix.jpg') fixed no-repeat center top / cover;
+    color: #333;
+    box-shadow: 20px px 100px black;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+    
+
+.navigation{
+    position:relative;
+    display: inline-block;
+    margin: 0px;
+    background-color:transparent;
+    bottom: 140px;
+    right: 50px;
+    margin: 8px;
+
+}
+
+
+.main-c{
+    position: relative;
+    width: 430px;
+    height: 660px;
+    left: 550px;
+    bottom: 270px;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+
+}
+
+.signin{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 600px;
+    bottom: 930px;
+    font-weight:bolder;
+    }
+
+    .input{
+        position: relative;
+        left: 500px;
+        bottom: 800px;
+        display: inline-block;
+        color: gray ;
+
+    }
+
+    .email{
+        width: 300px;
+        height: 45px;
+        background-color: #333;
+        color: #8c8c8c;
+        border-radius: 3px;
+        font-size: 16px;
+        text-indent: 15px;
+        border: 2px solid #333;
+    }
+
+    .password{
+        width: 300px;
+        height: 45px;
+        background-color: #333;
+        color: #8c8c8c;
+        border-radius: 3px;
+        font-size: 16px;
+        text-indent: 15px;
+        border: 2px solid #333;
+    }
+
+    .signin-btn{
+        position: relative;
+        display: inline-block;
+        left: 190px;
+        bottom: 720px;
+        
+    }
+
+    .sign{
+        width: 307px;
+        height: 45px;
+        border-radius: 3px;
+        color: white ;
+        font-size: 16px;
+        background-color: #e50914;
+        border: 2px solid #e50914;
+    }
+
+    .check{
+        position: relative;
+        display: inline-block;
+        bottom: 675px;
+        right: 125px;
+        background-color: #333;
+        color: #333;
+    }
+
+    .remember{
+        position: relative;
+        display: inline-block;
+        color: #8c8c8c;
+        bottom: 677px;
+        right: 128px;
+        font-size: 13px;
+
+    }
+
+    .first{
+        position: relative;
+        display: inline-block;
+        color: #8c8c8c;
+        bottom: 677px;
+        right: 0px;
+        font-size: 13px;
+        text-decoration: none;
+
+    }
+
+    .first a{
+        position: relative;
+        display: inline-block;
+        color: #8c8c8c;
+        bottom: 677px;
+        right: 0px;
+        font-size: 13px;
+        text-decoration: none;
+
+    }
+
+    .new{
+        position: relative;
+        display: inline-block;
+        color: #8c8c8c;
+        bottom: 580px;
+        right: 308px;
+        font-size: 16px;
+        text-decoration: none;
+
+    }
+
+    .second{
+
+        position: relative;
+        display: inline-block;
+        color: white;
+        bottom: 580px;
+        right: 308px;
+        font-size: 16px;
+        text-decoration: none;
+
+    }
+
+    .paragraph{
+        position: relative;
+        display: inline-block;
+        color: #8c8c8c;
+        bottom: 540px;
+        right: 515px;
+        font-size: 13px;
+        text-decoration: none;
+
+    }
+
+    .third{
+        position: relative;
+        display: inline-block;
+        color: #8c8c8c;
+        bottom: 540px;
+        right: 660px;
+        font-size: 13px;
+        text-decoration: none;
+        color: blue;
+
+    }
+
+    .third a{
+        text-decoration:none;
+    }

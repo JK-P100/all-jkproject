@@ -1,0 +1,150 @@
+html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naysuu Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <h1>Naysuu</h1>
+        </div>
+
+    </div>
+    <div class="buttons">
+        <div class="click Home"><a href="Home.html">Home</a></div>
+        <div class="click Profile"><a href="">Profile</a></div>
+        <div class="click contact"><a href="">Contact</a></div>
+        <div class="click Settings"><a href="">Settings</a></div>
+
+    </div>
+    
+    <section class="sentence">
+        <h2>Hello, Guys!</h2>
+        <p>Welcome to my first website! I'm Naysuu, and I'm thrilled to have
+            you here. <br> This website is my little slice of the web dev journey,
+            where i get to share <br> my passion, experiences, and thoughts with all
+            of you.
+        </p>
+
+    </section>
+
+    <div class="image">
+        <img src="img.png" alt="">
+    </div>
+
+    <div class="navtwo">
+        <a href="">About me!</a>
+
+    </div>
+    
+</body>
+
+</html>
+
+
+css
+
+*{
+    background-color:  #E9F1FA;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.header{
+    left: 40px;
+    top: 0px;
+    font-size: 20px;
+    position: fixed;
+
+}
+
+.buttons{
+    display: flex;
+    left: 1040px;
+    top: 0px;
+    font-size: 20px;
+    position: fixed;
+    
+}
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover{
+    color: white;
+}
+
+.click{
+    margin: 30px;
+    text-align: end;
+    text-align-last: center;
+}
+
+.home{
+    width: 100px;
+    height: 100px;
+    left: 100px;
+}
+
+.sentence{
+    position: relative;
+    left: 170px;
+    top: 280px;
+    opacity: 2;
+    font-size: 18px;
+    
+}
+
+.image{
+    position:relative;
+    left: 900px;
+    bottom: -50px;
+    opacity: 1;
+    background-size:cover;
+}
+
+.twonaysuu{
+    left: 40px;
+    top: 0px;
+    font-size: 20px;
+    position: fixed;
+    color: blue;
+
+}
+
+.navtwo{
+    position: relative;
+    left: 170px;
+    bottom: 80px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
+.navtwo a{
+    position: relative;
+    left: 5px;
+    bottom: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.navtwo:hover{
+    background-color: red;
+}
+
+
